@@ -1,0 +1,40 @@
+h1 {
+	width: 1250px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.content-container {
+	width: 1250px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	overflow: auto;
+}
+
+.content-container .element {
+	width: 229px;
+	height: 85px;
+	float: left;
+	text-align: center;
+	padding: 25px 10px 10px 10px;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	color: #000000;
+	text-decoration: none;
+}
+
+.content-container .element.odd {}
+
+.content-container .element.even {
+	background-color: #EFEFEF;
+}
+
+.content-container .element:hover {
+	background-color: #E4E4E4;
+}
+
+.cookie-crumb {
+	width: 1240px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
